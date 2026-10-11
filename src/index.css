@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@theme {
+  --color-bg: #F7F4ED;
+  --color-bg-white: #FFFFFF;
+  --color-main-pink: #FFC4EB;
+  --color-text-dark: #3B3436;
+  --color-text-gray: #9A939C;
+  --color-pink-accent: #C23288;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
